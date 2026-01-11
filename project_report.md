@@ -9,7 +9,8 @@ papersize: a4
 lang: en
 ---
 
-\clearpage
+
+
 
 **Abstract**
 This project delivers a reproducible data‑to‑decision pipeline that quantifies how local port disruptions propagate through the maritime network and prescribes resilience investments to reduce systemic risk. Multi‑source port and country records are standardized into a port‑year panel and enriched with network centrality and event data. We train and compare several machine‑learning classifiers using temporal validation with a Markov baseline. Cascades are simulated by injecting calibrated shocks into event features and propagating decayed effects to neighbors in encoded space, while a secondary gradient‑boosted model supplies confidence. Evaluation focuses on metrics suited to rare‑event forecasting and calibration. Stress tests flag major hubs as primary systemic sources; value optimization and a Monte‑Carlo agent prioritize investments in top hubs to maximize expected reduction in systemic risk. Key contributions are a reproducible cascade simulator, fragility diagnostics that separate reach from intensity, and prescriptive analyses for targeted resilience planning. Modeling caveats are noted and extensions proposed.
