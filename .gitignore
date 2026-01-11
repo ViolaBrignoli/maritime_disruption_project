@@ -1,0 +1,21 @@
+# Python boilerplate
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# VS Code settings 
+.vscode/
+
+# DATA - STRICTLY IGNORE
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Mac OS junk
+.DS_Store
